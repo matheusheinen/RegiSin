@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.regisinmobile.view.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/acao_LoginFragment_TelaPrincipalFragment"
+            app:destination="@id/telaPrincipalFragment" />
+        <action
+            android:id="@+id/acao_LoginFragment_CadastroUsuarioFragment"
+            app:destination="@id/cadastroUsuarioFragment" />
+        <action
+            android:id="@+id/acao_LoginFragment_RecuperarSenhaFragment"
+            app:destination="@id/recuperarSenhaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cadastroUsuarioFragment"
+        android:name="com.example.regisinmobile.view.CadastroUsuarioFragment"
+        android:label="fragment_cadastro_usuario"
+        tools:layout="@layout/fragment_cadastro_usuario" />
+    <fragment
+        android:id="@+id/telaPrincipalFragment"
+        android:name="com.example.regisinmobile.view.TelaPrincipalFragment"
+        android:label="fragment_tela_principal"
+        tools:layout="@layout/fragment_tela_principal" >
+        <action
+            android:id="@+id/acao_TelaPrincipalFragment_MenuSelecaoFragment"
+            app:destination="@id/menuSelecaoFragment" />
+        <action
+            android:id="@+id/acao_TelaPrincipalFragment_VisualizacaoDetalhadaEventoFragment"
+            app:destination="@id/visualizacaoDetalhadaEventoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuSelecaoFragment"
+        android:name="com.example.regisinmobile.view.MenuSelecaoFragment"
+        android:label="fragment_menu_selecao"
+        tools:layout="@layout/fragment_menu_selecao" >
+        <action
+            android:id="@+id/acao_MenuSelecaoFragment_RegistrarSinistroFragment"
+            app:destination="@id/registrarSinistroFragment" />
+        <action
+            android:id="@+id/acao_MenuSelecaoFragment_EditarInformacoesContatoFragment"
+            app:destination="@id/editarInformacoesContatoFragment" />
+        <action
+            android:id="@+id/acao_MenuSelecaoFragment_RedefinirSenhaFragment"
+            app:destination="@id/redefinirSenhaFragment" />
+        <action
+            android:id="@+id/acao_MenuSelecaoFragment_SinistrosRegistradosFragment"
+            app:destination="@id/sinistrosRegistradosFragment" />
+        <action
+            android:id="@+id/acao_MenuSelecaoFragment_TelaPrincipalFragment"
+            app:destination="@id/telaPrincipalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarSinistroFragment"
+        android:name="com.example.regisinmobile.view.RegistrarSinistroFragment"
+        android:label="fragment_registrar_sinistro"
+        tools:layout="@layout/fragment_registrar_sinistro" />
+    <fragment
+        android:id="@+id/visualizacaoDetalhadaEventoFragment"
+        android:name="com.example.regisinmobile.view.VisualizacaoDetalhadaEventoFragment"
+        android:label="fragment_visualizacao_detalhada_evento"
+        tools:layout="@layout/fragment_visualizacao_detalhada_evento" >
+        <argument
+            android:name="evento"
+            app:argType="modelDominio.Evento" />
+        <action
+            android:id="@+id/acao_VisualizacaoDetalhadaEventoFragment_TelaPrincipalFragment"
+            app:destination="@id/telaPrincipalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarInformacoesContatoFragment"
+        android:name="com.example.regisinmobile.view.EditarInformacoesContatoFragment"
+        android:label="fragment_editar_informacoes_contato"
+        tools:layout="@layout/fragment_editar_informacoes_contato" />
+    <fragment
+        android:id="@+id/redefinirSenhaFragment"
+        android:name="com.example.regisinmobile.view.RedefinirSenhaFragment"
+        android:label="fragment_redefinir_senha"
+        tools:layout="@layout/fragment_redefinir_senha" />
+    <fragment
+        android:id="@+id/sinistrosRegistradosFragment"
+        android:name="com.example.regisinmobile.view.SinistrosRegistradosFragment"
+        android:label="fragment_sinistros_registrados"
+        tools:layout="@layout/fragment_sinistros_registrados" />
+    <fragment
+        android:id="@+id/alterarSenhaFragment"
+        android:name="com.example.regisinmobile.view.AlterarSenhaFragment"
+        android:label="fragment_alterar_senha"
+        tools:layout="@layout/fragment_alterar_senha" />
+    <fragment
+        android:id="@+id/recuperarSenhaFragment"
+        android:name="com.example.regisinmobile.view.RecuperarSenhaFragment"
+        android:label="fragment_recuperar_senha"
+        tools:layout="@layout/fragment_recuperar_senha" >
+        <action
+            android:id="@+id/acao_RecuperarSenhaFragment_TelaInserirCodigoEmailFragment"
+            app:destination="@id/telaInserirCodigoEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/telaInserirCodigoEmailFragment"
+        android:name="com.example.regisinmobile.view.TelaInserirCodigoEmailFragment"
+        android:label="fragment_tela_inserir_codigo_email"
+        tools:layout="@layout/fragment_tela_inserir_codigo_email" >
+        <action
+            android:id="@+id/acao_TelaInserirCodigoEmailFragment_AlterarSenhaFragment"
+            app:destination="@id/alterarSenhaFragment" />
+
+    </fragment>
+</navigation>

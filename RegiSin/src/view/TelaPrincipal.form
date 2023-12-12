@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="59" green="7d" red="62" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="59" green="7d" red="62" type="rgb"/>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/view.image/iconCadastrar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cadastrar"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMCadastrarUsuario">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconCadastrarUsuario.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cadastrar Usu&#xe1;rio"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMCadastrarUsuarioActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMCadastrarEvento">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconCadastrarEvento.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cadastrar Evento"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMCadastrarEventoActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMCadastrarTipoSinistro">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconCadastrarTipoSinistro.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cadastrar Tipo Sinistro"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMCadastrarTipoSinistroActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMCadastrarSinistro">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconCadastrarSinistro.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cadastrar Sinistro"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMCadastrarSinistroActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/view.image/iconVisualizar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Visualizar"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMVisualizarEventos">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconVisualizarEventos.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Visualizar Eventos"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMVisualizarEventosActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMVisualizarSinistros">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconVisualizarSinistros.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Visualizar Sinistros"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMVisualizarSinistrosActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMVisualizarUsuarios">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconVisualizarUsuarios.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Visualizar Usu&#xe1;rios"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMVisualizarUsuariosActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMOpcoes">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/view.image/iconOpcoes.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Op&#xe7;&#xf5;es"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMAlterarSenha">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconAlterarSenha.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Alterar senha"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMAlterarSenhaActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMSobreAEmpresa">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view.image/iconSobreAEmpresa.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sobre"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMSobreAEmpresaActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,4,0,0,2,-24"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="493" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="59" green="7d" red="62" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jLSaudacao" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Fechar" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jBSair" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLSaudacao" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Fechar" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jBSair" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLSaudacao">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="b4" green="fd" red="c7" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="b4" green="fd" red="c7" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="53" green="c9" red="72" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="JLEmailParaContato" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="9" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="JLEmailParaContato" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLNomeLogo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jSeparator1" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                              <Component id="jSeparator2" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLTotalEventos" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="jLEchooTotalEventos" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLEchoTotalEventos" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLTotalSinistros" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="jLEchooTotalSinistros" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLEchoTotalSinistros" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="15" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                          <Component id="jLNomeLogo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="177" max="32767" attributes="0"/>
+                          <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLTotalEventos" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLEchoTotalEventos" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLEchooTotalEventos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLTotalSinistros" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLEchoTotalSinistros" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLEchooTotalSinistros" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLNomeLogo">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="36" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="RegiSin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator1">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLTotalEventos">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="14" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Total de Eventos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLTotalSinistros">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="14" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Total de Sinistros:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLEchoTotalEventos">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLEchoTotalSinistros">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLEchooTotalEventos">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="53" green="c9" red="72" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="jLabel1"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLEchooTotalSinistros">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="14" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="53" green="c9" red="72" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="jLabel2"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLogoMenu" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLogoMenu" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLogoMenu">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/view.image/LogoRegiSin.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="JLEmailParaContato">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="24" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="34" green="7f" red="48" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Email para contato: regisin2023@gmail.com"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="Fechar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="34" green="7f" red="48" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic UI Semibold" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="b4" green="fd" red="c7" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="X"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="borderPainted" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FecharActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBSair">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="34" green="7f" red="48" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic UI Semibold" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="b4" green="fd" red="c7" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/view.image/iconSair.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" Sair"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="borderPainted" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBSairActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verdeEscuro"
+    android:orientation="vertical"
+    tools:context=".view.CadastroUsuarioFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/etNomeUsuario"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_usuario"
+        android:drawableTint="@color/verdeClaro"
+        android:hint="Nome Completo"
+        android:textColor="@color/verdeClaro"
+        android:textColorHint="@color/verdeClaro" />
+
+    <EditText
+        android:id="@+id/etEmailUsuario"
+        android:inputType="textEmailAddress"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTint="@color/verdeClaro"
+        android:hint="E-mail"
+        android:textColor="@color/verdeClaro"
+        android:textColorHint="@color/verdeClaro" />
+
+    <EditText
+        android:id="@+id/etSenhaUsuario"
+        android:inputType="textPassword"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_eye"
+        android:drawableTint="@color/verdeClaro"
+        android:hint="Senha"
+        android:textColor="@color/verdeClaro"
+        android:textColorHint="@color/verdeClaro" />/>
+
+    <EditText
+        android:id="@+id/etCpfUsuario"
+        android:inputType=""
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTint="@color/verdeClaro"
+        android:hint="CPF"
+        android:maxLength="14"
+        android:textColor="@color/verdeClaro"
+        android:textColorHint="@color/verdeClaro" />
+
+    <EditText
+        android:id="@+id/etRgUsuario"
+        android:inputType="number"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTint="@color/verdeClaro"
+        android:hint="RG"
+        android:maxLength="10"
+        android:textColor="@color/verdeClaro"
+        android:textColorHint="@color/verdeClaro" />
+
+    <EditText
+        android:id="@+id/etTelefoneUsuario"
+        android:inputType="phone"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/baseline_phone_24"
+        android:drawableTint="@color/verdeClaro"
+        android:hint="Telefone"
+        android:textColor="@color/verdeClaro"
+        android:textColorHint="@color/verdeClaro" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bCadastroCadastrar"
+        style="@style/botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Cadastrar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bCadastroCancelar"
+        style="@style/botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Cancelar" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

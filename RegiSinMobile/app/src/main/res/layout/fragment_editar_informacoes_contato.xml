@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".view.EditarInformacoesContatoFragment"
+    android:background="@color/verdeEscuro">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="left"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar Informações de Contato"
+                android:layout_gravity="center"
+                android:background="@color/verdeSombreado"
+                android:textColor="@color/verdeClaro"
+                android:padding="25dp"
+                android:textSize="20sp"/>
+
+
+            <EditText
+                style="@style/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etNomeCompleto"
+                android:drawableRight="@drawable/ic_usuario"
+                android:drawableTint="@color/verdeClaro"
+                android:textColor="@color/verdeClaro"
+                android:hint="Nome Completo"
+                android:maxLength="40"
+                android:textColorHint="@color/verdeClaro"/>/>
+
+            <EditText
+                style="@style/editText"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etEmail"
+                android:drawableTint="@color/verdeClaro"
+                android:textColor="@color/verdeClaro"
+                android:hint="E-mail"
+                android:textColorHint="@color/verdeClaro"/>/>
+
+            <EditText
+                style="@style/editText"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTelefone"
+                android:drawableTint="@color/verdeClaro"
+                android:drawableRight="@drawable/baseline_phone_24"
+                android:textColor="@color/verdeClaro"
+                android:hint="Telefone"
+                android:textColorHint="@color/verdeClaro"/>/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/botao"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/bSalvarEdicao"
+                android:text="Salvar"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/botao"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:id="@+id/bCancelar"
+                android:layout_marginBottom="20dp"
+                android:text="Cancelar"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

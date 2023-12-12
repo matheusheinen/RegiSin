@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+tools:context=".view.VisualizacaoDetalhadaEventoFragment"
+android:background="@color/verdeEscuro">
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="left"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evento Detalhado"
+            android:layout_gravity="center"
+            android:background="@color/verdeSombreado"
+            android:textColor="@color/verdeClaro"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evento: "
+            android:textColor="@color/verdeClaro"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvVisualizaNomeEvento"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:textColor="@color/verdeClaro"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cidade:"
+            android:textSize="18sp"
+            android:textColor="@color/verdeClaro"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/verdeClaro"
+            android:textSize="13sp"
+            android:id="@+id/tvVisualizaCidadeEvento"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data:"
+            android:textSize="18sp"
+            android:textColor="@color/verdeClaro"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvVisualizaDataEvento"
+            android:layout_gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/verdeClaro"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:textColor="@color/verdeClaro"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvVisualizaDescricaoEvento"
+            android:textColor="@color/verdeClaro"
+            android:layout_gravity="center"
+            android:textSize="13sp"
+            android:layout_marginBottom="50dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bVoltar"
+            style="@style/botao"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Voltar" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
